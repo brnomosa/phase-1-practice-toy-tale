@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function fetchToys() {
-  fetch("http://localhost:3000/toys") 
+  fetch("https://fontmeme.com/permalink/180719/67429e6afec53d21d64643101c43f029.png") 
     .then((res) => res.json())
     .then((res) => {
       console.log("response2", res);
